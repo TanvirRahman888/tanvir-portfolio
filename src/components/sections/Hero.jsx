@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-white text-slate-950 dark:bg-[#050b18] dark:text-white shadow-2xl shadow-gray-100 "
+      className="relative overflow-hidden bg-white text-slate-950 dark:bg-[#050b18] dark:text-white "
     >
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-2 px-6 md:grid-cols-2 py-6">
         
