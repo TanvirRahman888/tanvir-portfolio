@@ -53,7 +53,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className="w-full sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800">
+    <nav className="w-full sticky top-0 z-50 backdrop-blur bg-gray-100 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* Logo */}
