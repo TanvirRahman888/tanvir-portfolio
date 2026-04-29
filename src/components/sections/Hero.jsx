@@ -18,7 +18,6 @@ export default function Hero() {
       className="relative overflow-hidden bg-white text-slate-950 dark:bg-[#050b18] dark:text-white "
     >
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-2 px-6 md:grid-cols-2 py-6">
-        
         <div>
           <div className="mb-6 inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white/80 px-4 py-2 text-sm font-semibold text-slate-800 shadow-sm dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-100">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
@@ -45,10 +44,16 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <Button className="h-12 rounded-xl bg-linear-to-r from-purple-600 to-blue-600 px-7 text-white shadow-lg shadow-purple-500/25">
-              Download Resume
-              <Download className="ml-2 h-4 w-4" />
-            </Button>
+            <a
+              href="https://drive.usercontent.google.com/u/0/uc?id=1kIzq-NLLtdxuaCITa4-28bNKAgkniH3r&export=download"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="h-12 rounded-xl bg-linear-to-r from-purple-600 to-blue-600 px-7 text-white shadow-lg shadow-purple-500/25">
+                Download Resume
+                <Download className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
 
             <Button
               variant="outline"
@@ -84,7 +89,6 @@ export default function Hero() {
             <div className="absolute right-[5%] top-[12%] hidden h-105 w-105 lg:h-120 lg:w-120 animate-spin-slow rounded-full border border-blue-300/30 dark:border-purple-400/20 md:block" />
 
             <div className="absolute left-[45%] bottom-[12%] hidden h-24 w-24 animate-float bg-[radial-gradient(circle,#7c3aed_2px,transparent_2px)] opacity-40 bg-size-[18px_18px] md:block" />
-
 
             <div className="absolute left-10 top-24 h-56 w-56 animate-pulse rounded-full bg-blue-500/10 blur-3xl" />
             <div className="absolute bottom-10 right-20 h-56 w-56 animate-pulse rounded-full bg-purple-500/10 blur-3xl" />

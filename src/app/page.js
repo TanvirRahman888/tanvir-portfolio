@@ -12,14 +12,15 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills/>
-      <Projects/>
-      <Education/>
-      <Contact/>
-      <Footer/>
-
+      <main className="pt-20">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+      <Footer />
     </>
   );
 }

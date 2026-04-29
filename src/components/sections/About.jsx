@@ -11,12 +11,12 @@ const personalInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "tanvirrahman.bd@gmail.com",
+    value: "tanvirrahman8888@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+880 1712-345678",
+    value: "+880 1770-8881-6",
   },
   {
     icon: MapPin,
@@ -69,14 +69,14 @@ export default function About() {
                 Get to know me!
               </h2>
 
-              <p className="mt-5 leading-8 text-slate-600 dark:text-slate-300">
+              <p className="mt-5 leading-8 text-slate-600 dark:text-slate-300 text-justify">
                 I’m Md Tanvir Rahman, a passionate Frontend Developer who loves
                 turning ideas into interactive, user-friendly web applications.
                 I enjoy building clean, efficient and scalable solutions with
                 modern technologies.
               </p>
 
-              <p className="mt-4 leading-8 text-slate-600 dark:text-slate-300">
+              <p className="mt-4 leading-8 text-slate-600 dark:text-slate-300 text-justify">
                 When I’m not coding, you’ll find me exploring new tech,
                 listening to music or spending time with family.
               </p>
