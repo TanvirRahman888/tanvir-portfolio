@@ -28,7 +28,7 @@ export default function Hero() {
           <h1 className="text-5xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl">
             Hi, I’m
             <br />
-            <span className="bg-gradient-to-r from-purple-500 to-blue-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-purple-500 to-blue-600 bg-clip-text text-transparent">
               Md Tanvir
             </span>
             <br />
@@ -45,7 +45,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <Button className="h-12 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-7 text-white shadow-lg shadow-purple-500/25">
+            <Button className="h-12 rounded-xl bg-linear-to-r from-purple-600 to-blue-600 px-7 text-white shadow-lg shadow-purple-500/25">
               Download Resume
               <Download className="ml-2 h-4 w-4" />
             </Button>
@@ -79,11 +79,11 @@ export default function Hero() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 dark:bg-[radial-gradient(circle_at_70%_30%,rgba(124,58,237,0.22),transparent_35%)]" />
 
-            <div className="absolute right-[10%] top-[16%] h-[330px] w-[330px] rounded-full bg-blue-100 dark:bg-purple-700/70 md:h-[470px] md:w-[470px]" />
+            <div className="absolute right-[10%] top-[16%] h-82.5 w-82.5 rounded-full bg-blue-100 dark:bg-purple-700/70 md:h-117.5 md:w-117.5" />
 
-            <div className="absolute right-[5%] top-[12%] hidden h-[420px] w-[420px] lg:h-[480px] lg:w-[480px] animate-spin-slow rounded-full border border-blue-300/30 dark:border-purple-400/20 md:block" />
+            <div className="absolute right-[5%] top-[12%] hidden h-105 w-105 lg:h-120 lg:w-120 animate-spin-slow rounded-full border border-blue-300/30 dark:border-purple-400/20 md:block" />
 
-            <div className="absolute left-[45%] bottom-[12%] hidden h-24 w-24 animate-float bg-[radial-gradient(circle,#7c3aed_2px,transparent_2px)] opacity-40 [background-size:18px_18px] md:block" />
+            <div className="absolute left-[45%] bottom-[12%] hidden h-24 w-24 animate-float bg-[radial-gradient(circle,#7c3aed_2px,transparent_2px)] opacity-40 bg-size-[18px_18px] md:block" />
 
 
             <div className="absolute left-10 top-24 h-56 w-56 animate-pulse rounded-full bg-blue-500/10 blur-3xl" />

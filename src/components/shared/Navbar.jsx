@@ -58,7 +58,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link href="#home" className="flex items-center gap-3">
-          <div className="w-9 h-9 flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold">
+          <div className="w-9 h-9 flex items-center justify-center rounded-xl bg-linear-to-r from-purple-500 to-blue-500 text-white font-bold">
             TR
           </div>
           <span className="font-semibold text-slate-900 dark:text-white">
@@ -85,7 +85,7 @@ export default function Navbar() {
                   {link.name}
 
                   {isActive && (
-                    <span className="absolute -bottom-2 left-0 w-full h-[2px] bg-blue-500 rounded-full" />
+                    <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-blue-500 rounded-full" />
                   )}
                 </Link>
               </li>
@@ -97,7 +97,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <ThemeToggle />
 
-          <Button className="rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+          <Button className="rounded-full bg-linear-to-r from-purple-500 to-blue-500 text-white">
             Download Resume
             <Download className="ml-2 w-4 h-4" />
           </Button>
@@ -114,7 +114,7 @@ export default function Navbar() {
               </Button>
             </SheetTrigger>
 
-            <SheetContent side="right" className="w-[280px]">
+            <SheetContent side="right" className="w-70">
               <div className="mt-10 flex flex-col gap-5">
                 {navLinks.map((link) => {
                   const sectionId = link.href.replace("#", "")
@@ -136,7 +136,7 @@ export default function Navbar() {
                   )
                 })}
 
-                <Button className="mt-4 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+                <Button className="mt-4 rounded-full bg-linear-to-r from-purple-500 to-blue-500 text-white">
                   Download Resume
                   <Download className="ml-2 w-4 h-4" />
                 </Button>
