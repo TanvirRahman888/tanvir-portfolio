@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/shared/theme-provider";
 import "./globals.css";
+import { Toaster } from "react-hot-toast"
 
 export const metadata = {
   title: "Tanvir Portfolio",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider>
           {children}
+          <Toaster position="top-center" reverseOrder={false} />
         </ThemeProvider>
       </body>
     </html>
